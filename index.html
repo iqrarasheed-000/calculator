@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>JavaScript</title>
+        <script src="app.js"> </script>
+    </head>
+    <body>
+        <h1 class = "heading">Calculator</h1>
+        <br/>
+        <div class = "border">
+    <div> 
+        <input id = "result" class = "result" type = "text">
+    <div>
+        <button class = "btn-clear" onClick = "clearResult()">C</button>
+        <button class = "btn-clear" onClick = "getResult()">=</button>
+    </div>
+    <div>
+        <button class = "btn-clear1" onClick ="addChar('3.14159265359')">&#960;</button>
+        <button class = "btn-clear1" onClick ="percent()">%</button>
+        </div>
+    </div>
+    <div>
+        <button class = "btn-num" onClick ="getNumber('7')">7</button>
+        <button class = "btn-num" onClick ="getNumber('8')">8</button>
+        <button class = "btn-num"onClick ="getNumber('9')">9</button>
+        <button class = "btn-num" onClick ="getNumber('/')">/</button>
+        <button class = "btn-num" onClick ="deleteChar()" > <-- </button>
+    </div>
+    <div>
+        <button class = "btn-num" onClick ="getNumber('4')">4</button>
+        <button class = "btn-num" onClick ="getNumber('5')">5</button>
+        <button class = "btn-num" onClick ="getNumber('6')">6</button>
+        <button class = "btn-num" onClick ="ln()">ln</button>
+        <button class = "btn-num" onClick ="getNumber('*')">*</button>
+    </div>
+    <div>
+        <button class = "btn-num" onClick ="getNumber('1')">1</button>
+        <button class = "btn-num" onClick ="getNumber('2')">2</button>
+        <button class = "btn-num" onClick ="getNumber('3')">3</button>
+        <button class = "btn-num" onClick ="sqrt()">&radic;</button>
+        <button class = "btn-num" onClick ="getNumber('-')">-</button>
+    </div>
+    <div>
+        <button class = "btn-num" onClick ="changeSign()">&#177;</button>
+        <button class = "btn-num" onClick ="getNumber('0')">0</button>
+        <button class = "btn-num" onClick ="getNumber('&#46;')">&#46;</button>
+        <button class = "btn-num" onClick ="square()">x&#50;</button>
+        <button class = "btn-num" onClick ="getNumber('+')">+</button>
+    </div>
+    <div>
+        <button class = "btn-num" onClick ="getNumber('(')" >(</button>
+        <button class = "btn-num" onClick ="getNumber(')')">)</button>
+        <button class = "btn-num" onClick ="cos()">cos</button>
+        <button class = "btn-num" onClick ="sin()" >sin</button>
+        <button class = "btn-num" onClick ="tan()">tan</button>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+        
+</body>
+</html>
